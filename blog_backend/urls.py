@@ -21,8 +21,8 @@ from posts import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('posts/', views.BlogListView.as_view({'get': 'list'}), name='posts'),
-    path('add-post/', views.BlogAddView.as_view(), name="add-post")
-    # path('api-token-auth/', obtain_auth_token, name='api_token_auth')
+    path('add-post/', views.BlogAddView.as_view(), name="add-post"),
+    path('api-token-auth/', obtain_auth_token, name='api_token_auth')
 ]
 
 # Refer https://simpleisbetterthancomplex.com/tutorial/2018/11/22/how-to-implement-token-authentication-using-django-rest-framework.html for doubts
