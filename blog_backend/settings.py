@@ -49,7 +49,7 @@ REST_FRAMEWORK = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-  'https://blog_api.viksmals.com'
+  'https://blogapi.viksmals.com'
 ]
 
 MIDDLEWARE = [
