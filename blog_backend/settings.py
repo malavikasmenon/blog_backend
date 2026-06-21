@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-1xi^6v0(jq%*8)d-lu#d%$y8&hl4#24#o$t$9)8v)y7ysihvxq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -49,7 +49,7 @@ REST_FRAMEWORK = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-  'https://blogbackend.malavikasmenon.repl.co'
+  'https://blog_api.viksmals.com'
 ]
 
 MIDDLEWARE = [
